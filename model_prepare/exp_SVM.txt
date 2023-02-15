@@ -1,0 +1,94 @@
+# SVM with raw unigrams
+              precision    recall  f1-score   support
+
+       anger       0.40      0.30      0.34       388
+        fear       0.31      0.62      0.41       389
+         joy       0.53      0.33      0.41       290
+     sadness       0.41      0.23      0.30       397
+
+    accuracy                           0.37      1464
+   macro avg       0.41      0.37      0.37      1464
+weighted avg       0.41      0.37      0.36      1464
+
+0.37158469945355194
+
+
+
+# SVM with cleaned unigrams
+              precision    recall  f1-score   support
+
+       anger       0.40      0.43      0.42       388
+        fear       0.35      0.54      0.42       389
+         joy       0.60      0.44      0.51       290
+     sadness       0.44      0.26      0.33       397
+
+    accuracy                           0.42      1464
+   macro avg       0.45      0.42      0.42      1464
+weighted avg       0.44      0.42      0.41      1464
+
+0.41598360655737704
+
+
+
+# SVM with fastText embedding
+
+              precision    recall  f1-score   support
+
+       anger       0.38      0.34      0.36       388
+        fear       0.35      0.52      0.42       389
+         joy       0.57      0.53      0.55       290
+     sadness       0.41      0.28      0.34       397
+
+    accuracy                           0.41      1464
+   macro avg       0.43      0.42      0.41      1464
+weighted avg       0.42      0.41      0.41      1464
+
+0.40846994535519127
+
+
+
+# SVM with gloVe embedding
+              precision    recall  f1-score   support
+
+       anger       0.39      0.37      0.38       388
+        fear       0.35      0.55      0.43       389
+         joy       0.61      0.49      0.54       290
+     sadness       0.41      0.25      0.31       397
+
+    accuracy                           0.41      1464
+   macro avg       0.44      0.42      0.42      1464
+weighted avg       0.43      0.41      0.41      1464
+
+0.41120218579234974
+
+
+
+# fastText with unigrams
+              precision    recall  f1-score   support
+
+       anger       0.45      0.43      0.44       388
+        fear       0.39      0.57      0.46       389
+         joy       0.65      0.53      0.58       290
+     sadness       0.45      0.33      0.38       397
+
+    accuracy                           0.46      1464
+   macro avg       0.48      0.46      0.47      1464
+weighted avg       0.47      0.46      0.46      1464
+
+0.4583333333333333
+
+
+
+# fastText with bigrams
+              precision    recall  f1-score   support
+
+       anger       0.39      0.41      0.40       388
+        fear       0.38      0.58      0.46       389
+         joy       0.63      0.51      0.56       290
+     sadness       0.47      0.27      0.34       397
+
+    accuracy                           0.44      1464
+   macro avg       0.47      0.44      0.44      1464
+weighted avg       0.46      0.44      0.43      1464
+
+0.4371584699453552
